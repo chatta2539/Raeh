@@ -7,7 +7,7 @@ const path = require('path')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('login', { title: 'Express' });
+    res.render('index', { title: 'Express' });
 });
 
 router.get('/index2', function(req, res, next) {
